@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="demoblaze">
+
+
+<listeners>
+		<listener class-name="com.demoblaze.Utilities.ExtentReportManager" />
+	</listeners>
+	
+		<test name="demoblaze Test">
+		
+		<classes>
+			<class name="com.demoblaze.testCases.TC_LoginTest_001" />
+			
+			<class name="com.demoblaze.testCases.TC_PhoneSecTest_001" />
+			<class name="com.demoblaze.testCases.TC_LoginDDT_002" />
+				
+
+		</classes>
+
+	</test>
+
+</suite>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-26T18:23:16 IST" name="demoblaze" finished-at="2024-01-26T18:24:10 IST" duration-ms="53257">
+    <groups>
+    </groups>
+    <test started-at="2024-01-26T18:23:16 IST" name="demoblaze Test" finished-at="2024-01-26T18:24:10 IST" duration-ms="53257">
+      <class name="com.demoblaze.testCases.TC_LoginTest_001">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.demoblaze.testCases.TC_LoginTest_001@13e344d]" started-at="2024-01-26T18:23:17 IST" name="Setup" finished-at="2024-01-26T18:23:20 IST" duration-ms="2812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="loginTest()[pri:0, instance:com.demoblaze.testCases.TC_LoginTest_001@13e344d]" started-at="2024-01-26T18:23:20 IST" name="loginTest" finished-at="2024-01-26T18:23:21 IST" duration-ms="1885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.demoblaze.testCases.TC_LoginTest_001@13e344d]" started-at="2024-01-26T18:23:22 IST" name="teardown" finished-at="2024-01-26T18:23:22 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.demoblaze.testCases.TC_LoginTest_001 -->
+      <class name="com.demoblaze.testCases.TC_LoginDDT_002">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.demoblaze.testCases.TC_LoginDDT_002@1a6d8329]" started-at="2024-01-26T18:23:22 IST" name="Setup" finished-at="2024-01-26T18:23:23 IST" duration-ms="987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="PhoneDDTTest(java.lang.String,java.lang.String)[pri:0, instance:com.demoblaze.testCases.TC_LoginDDT_002@1a6d8329]" started-at="2024-01-26T18:23:23 IST" name="PhoneDDTTest" data-provider="CredentailsSupplier" finished-at="2024-01-26T18:23:33 IST" duration-ms="9567" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PhoneDDTTest -->
+        <test-method signature="PhoneDDTTest(java.lang.String,java.lang.String)[pri:0, instance:com.demoblaze.testCases.TC_LoginDDT_002@1a6d8329]" started-at="2024-01-26T18:23:33 IST" name="PhoneDDTTest" data-provider="CredentailsSupplier" finished-at="2024-01-26T18:23:41 IST" duration-ms="7705" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PhoneDDTTest -->
+        <test-method signature="PhoneDDTTest(java.lang.String,java.lang.String)[pri:0, instance:com.demoblaze.testCases.TC_LoginDDT_002@1a6d8329]" started-at="2024-01-26T18:23:41 IST" name="PhoneDDTTest" data-provider="CredentailsSupplier" finished-at="2024-01-26T18:23:50 IST" duration-ms="9192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PhoneDDTTest -->
+        <test-method signature="PhoneDDTTest(java.lang.String,java.lang.String)[pri:0, instance:com.demoblaze.testCases.TC_LoginDDT_002@1a6d8329]" started-at="2024-01-26T18:23:50 IST" name="PhoneDDTTest" data-provider="CredentailsSupplier" finished-at="2024-01-26T18:23:58 IST" duration-ms="8102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PhoneDDTTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.demoblaze.testCases.TC_LoginDDT_002@1a6d8329]" started-at="2024-01-26T18:23:58 IST" name="teardown" finished-at="2024-01-26T18:23:58 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.demoblaze.testCases.TC_LoginDDT_002 -->
+      <class name="com.demoblaze.testCases.TC_PhoneSecTest_001">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.demoblaze.testCases.TC_PhoneSecTest_001@1a942c18]" started-at="2024-01-26T18:23:58 IST" name="Setup" finished-at="2024-01-26T18:23:59 IST" duration-ms="1101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="PhoneTest()[pri:0, instance:com.demoblaze.testCases.TC_PhoneSecTest_001@1a942c18]" started-at="2024-01-26T18:23:59 IST" name="PhoneTest" finished-at="2024-01-26T18:24:09 IST" duration-ms="10180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PhoneTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.demoblaze.testCases.TC_PhoneSecTest_001@1a942c18]" started-at="2024-01-26T18:24:09 IST" name="teardown" finished-at="2024-01-26T18:24:10 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.demoblaze.testCases.TC_PhoneSecTest_001 -->
+    </test> <!-- demoblaze Test -->
+  </suite> <!-- demoblaze -->
+</testng-results>
